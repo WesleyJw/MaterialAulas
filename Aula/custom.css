@@ -1,0 +1,125 @@
+#notebook-container{
+    box-shadow: none !important;
+}
+
+.container {
+    width: 80% !important;
+}
+
+.notebook_app {
+    background: #fff !important;
+}
+
+body > #header {
+    background:  #FDBA06;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a, #kernel_indicator {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #f57b00;
+    transition: all 0.25s;
+}
+
+.navbar-default .navbar-nav > li > a:hover, #kernel_indicator:hover {
+    border-bottom: 2px solid #fff;
+    color: rgba(255, 255, 255, 1);
+}
+
+div.input_area {
+    border: none;
+    border-radius: 0;
+    background: #f7f7f7;
+    line-height: 1.5em;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+div.cell {
+    transition: all 0.25s;
+    border: none;
+    position: relative;
+    top: 0;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border: none;
+    background: transparent;
+    box-shadow: 0 6px 18px #000;
+    z-index: 10;
+    top: -10px;
+}
+
+
+div#pager {
+    opacity: 0.85;
+    z-index: 9999;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.dropdown-menu {
+    z-index: 999999 !important;
+    background-color: #f57b00;
+    opacity: 0.95;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+
+.cont_title{
+    width: 70%;
+    float: left
+}
+
+.cont_img{
+    width: 10%;
+    float: right
+}
+
+.img{
+    width:10%
+}
+
+h1, .h1 {
+    font-size: 33px;
+    font-family: "Trebuchet MS";
+    font-size: 2.5em !important;
+    color: #2a7bbd;
+}
+
+.professor_name{
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+}
+
+code {
+    background-color: #E5E3DC !important;
+}
+
+.coding pre {
+    margin-left: 150px;
+    padding: 20px;
+    width: 50%;
+    background: #E5E3DC !important;
+    box-shadow: 0 6px 18px #000;
+    z-index: 5;
+    top: -5px;
+}
+
