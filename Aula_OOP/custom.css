@@ -93,7 +93,7 @@ div#pager {
     float: right
 }
 
-.img{
+.logo {
     width:10%
 }
 
@@ -122,4 +122,68 @@ code {
     z-index: 5;
     top: -5px;
 }
+
+.revisao-prog-estruturada{
+    display: inline-block;
+    width: 60%;
+    float: left
+}
+
+.revisao-como-era{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+.programing-fluxo {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.programa-codigo {
+    width: 110%;
+}
+
+.revisao-conceitos{
+    display: block;
+    width: 60%;
+    float: left
+}
+
+.oop-linguagens{
+    display: block;
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+.poo-definicoes{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+}
+
+.poo-programas{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+.poo-programas .coding pre {
+    width: 80%;
+    background: #E5E3DC !important;
+    box-shadow: 0 6px 18px #000;
+    z-index: 5;
+    top: -5px;
+}
+
+.classe-caneta {
+    width: 40%
+}
+
+
 
